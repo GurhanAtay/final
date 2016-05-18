@@ -5,6 +5,11 @@
   <title>  Edirne Belediyesi Ulaşım Sistemi</title>
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src='cordova.js'></script>
+  <script>
+  if(navigator.network.connection.type == Connection.NONE)
+  {
+  navigator.notification.alert('İnternet Bağlantınız Yok!');
+  }
 </head>
 <body>
   <iframe src="http://edirnebelediyesiulasimhizmetleri.com/"
