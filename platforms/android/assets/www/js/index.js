@@ -49,17 +49,7 @@ var app = {
 	document.addEventListener("deviceready", showConnectionAlert, false);
 
 
-var  = function showConnectionAlert() {
-	
-	document.addEventListener("offline", onOffline, false);
 
-function onOffline() {
-  alert('This application requires internet. Please connect to the internet.');
-}
-
-  
-   
-}
 
 };
 
