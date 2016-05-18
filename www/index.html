@@ -17,6 +17,8 @@
         function onDeviceReady() {
             if(navigator.network.connection.type == Connection.NONE){
                 alert("İnternet Bağlantısı Yok");
+				navigator.app.exitApp();
+
             }
         }
     </script>
