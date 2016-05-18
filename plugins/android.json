@@ -12,6 +12,9 @@
         },
         "phonegap-plugin-push": {
             "PACKAGE_NAME": "X9MSMGXLM5.com.tf.edirneulasim"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "X9MSMGXLM5.com.tf.edirneulasim"
         }
     },
     "dependent_plugins": {}

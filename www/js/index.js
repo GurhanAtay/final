@@ -49,9 +49,15 @@ var app = {
 	document.addEventListener("deviceready", showConnectionAlert, false);
 
 
-var  = function() {
+var  = function showConnectionAlert() {
+	
+	document.addEventListener("offline", onOffline, false);
 
-   swal({   title: "Hata!",   text: "İnternet Bağlantısı Yok!",   type: "error",   confirmButtonText: "Tamam" });
+function onOffline() {
+ swal({   title: "Hata!",   text: "İnternet Bağlantısı Yok!",   type: "error",   confirmButtonText: "Tamam" });
+}
+
+  
    
 }
 
