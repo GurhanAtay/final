@@ -54,7 +54,7 @@ var  = function showConnectionAlert() {
 	document.addEventListener("offline", onOffline, false);
 
 function onOffline() {
- swal({   title: "Hata!",   text: "İnternet Bağlantısı Yok!",   type: "error",   confirmButtonText: "Tamam" });
+  alert('This application requires internet. Please connect to the internet.');
 }
 
   
