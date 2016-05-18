@@ -46,6 +46,15 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+	document.addEventListener("deviceready", showConnectionAlert, false);
+
+
+var  = function() {
+
+   swal({   title: "Hata!",   text: "İnternet Bağlantısı Yok!",   type: "error",   confirmButtonText: "Tamam" });
+   
+}
+
 };
 
 app.initialize();
