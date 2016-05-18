@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.geekchallender.teknodayi" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="X9MSMGXLM5.com.tf.edirneulasim" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
@@ -9,13 +9,13 @@
         <param name="android-package" value="com.adobe.phonegap.push.PushPlugin" />
     </feature>
     <allow-intent href="market:*" />
-    <icon src="www/dayi.png" />
-    <name>Teknodayi</name>
+    <icon src="180x180.png" />
+    <name>Edirne Ulaşım</name>
     <description>
-        Teknodayi mobil uygulamasi
+     Edirne Belediyesi Ulaşım Sistemi
     </description>
-    <author email="htolgasahin@gmail.com" href="http://htolgasahin.me">
-        Hilmi Tolga Sahin
+    <author email="owner@rkurcan.com" href="https://rkurcan.com">
+     Remzi Kurçan
     </author>
     <content src="index.html" />
     <access origin="*" />
