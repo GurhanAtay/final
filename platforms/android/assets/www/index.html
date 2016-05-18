@@ -5,11 +5,32 @@
   <title>  Edirne Belediyesi Ulaşım Sistemi</title>
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src='cordova.js'></script>
-  <script>
-  if(navigator.network.connection.type == Connection.NONE)
-  {
-  navigator.notification.alert('İnternet Bağlantınız Yok!');
-  }
+ <script>
+var isConnected = function() {
+    // internet baglantisi kontrolu
+    var networkState = navigator.network.connection.type;
+    if(networkState == Connection.NONE || typeof networkState === "undefined" || networkState == null)
+        return false;
+    return true;
+}
+
+var showConnectionAlert = function() {
+    // baglanti yok mesaji
+    navigator.notification.alert(
+        'İnternet bağlantısı yok!',
+        alertDismissed,
+        'Bağlantı',
+        'Tamam'
+     );
+}
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+
+    // network kontrolu
+    if(!isConnected()){
+        showConnectionAlert();
+}
+}
   </script>
 </head>
 <body>
