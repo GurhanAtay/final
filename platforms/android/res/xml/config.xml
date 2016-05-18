@@ -13,7 +13,7 @@
     </feature>
     <allow-intent href="market:*" />
     <icon src="180x180.png" />
-    <name>Edirne Ulaşım</name>
+    <name>Edirne Ulaşım Hizmetleri</name>
     <description>
      Edirne Belediyesi Ulaşım Sistemi
     </description>
