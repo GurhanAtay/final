@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="X9MSMGXLM5.com.tf.SMPInsaat" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>SMP İnşaat</name>
+<widget id="X9MSMGXLM5.com.tf.FinalPastahaneleri" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Final Pastahaneleri</name>
     <description>
-     SMP İnşaat Sistemi
+     Final Pastahaneleri
     </description>
     <author email="owner@rkurcan.com" href="https://rkurcan.com">
      Remzi Kurçan
